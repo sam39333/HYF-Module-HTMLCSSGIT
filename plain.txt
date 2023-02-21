@@ -1,0 +1,13 @@
+we can create afile [D[D[D[D[D [C[Cfile by using test.txt 
+create a file by touch test.txt
+to hide the file we just created we use (.) infront of the file name
+.test.txt this will hide the file
+if we want to view a hidden file we use ls -a to display list of files including hidden files
+to create nestled directories we mkdir -p this will help us to create the parent direcories and create multiple files inside it
+$ mkdir -p /c/Users/name/these/folders/are/just/for/fun
+to print new line in cmd without using the /n
+we can use the echo text; echo test; echo hello;
+echo will help us create new line without using the newline command but by using;.
+ls
+clear
+
