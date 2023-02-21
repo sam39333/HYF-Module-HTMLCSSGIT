@@ -14,4 +14,7 @@ clear
 #test.txt[D[D[D[D[D[D[D[D .test.txt
 # ls -a
 # mkdir -p /c/Users/myusername/these/folders/are/just/for/fun
-# echo test; echo text; echo hello;
+# echo test; echo text; echo hello;.test.txt
+ls -a
+mkdir -p /c/Users/myusername/these/folders/are/just/for/fun
+echo test; echo text; echo hello;
