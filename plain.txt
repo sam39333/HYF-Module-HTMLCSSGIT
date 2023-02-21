@@ -11,3 +11,7 @@ echo will help us create new line without using the newline command but by using
 ls
 clear
 
+#test.txt[D[D[D[D[D[D[D[D .test.txt
+# ls -a
+# mkdir -p /c/Users/myusername/these/folders/are/just/for/fun
+# echo test; echo text; echo hello;
