@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.container {
+ width: 100%;
+ min-height: 100vh;
+ padding: 1% 8% 0% 8%;
+ overflow: hidden;
+ background-image: url(https://th.bing.com/th/id/R.ab343b96e19483206e7b2ab45a89b8eb?rik=H2Yu3MtVW4qgjQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f8%2fb%2fc%2f641126.jpg&ehk=OqI3QmkSO9jV5OtTO8x5x4f7DiRvyaB1m%2fF%2b8AKwfCQ%3d&risl=&pid=ImgRaw&r=0);
+ background-size:cover;
+ box-sizing: border-box;
+}
+.navbar{
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+.logo{
+    width:180px;
+    cursor: pointer;
+    height:180px;
+    background:url(https://th.bing.com/th/id/R.14a18c667f9246592fb68f77179243f2?rik=0YT1sP2BmhK9iQ&riu=http%3a%2f%2fwww.jason47.com%2fjason47b%2fimages%2fluttrellerica.jpg&ehk=Zdwcyznm6BZE2641TqhIdPtppHiKoFwPrRhqdfAgw7M%3d&risl=&pid=ImgRaw&r=0 );
+    background-size: cover;
+    border-radius: 10%;
+    box-shadow:inset 0px 0px 10px 2px black;
+}
+#name{
+    color:rgba(255, 255, 255, 0.489);
+    margin-left:20px;
+}
+.menu{
+    width:40px;
+    cursor: pointer;
+    display: none;
+}
+nav{
+    flex:1;
+    text-align:right;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin-right:30px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:rgba(255, 255, 255, 0.489);
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color:rgb(200, 143, 58);
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 0px 0px 50px;
+}
+.box-1{
+    flex-basis:40%;
+    position:relative;
+    margin-left:40px;
+}
+.box-1 h1{
+    font-size:54px;
+    color:rgba(255, 255, 255, 0.489);
+}
+.box-1 h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0 10px;
+    background:rgba(255, 255, 255, 0.489);
+    mix-blend-mode: screen;
+    padding-left:10px;
+}
+.box-1 p{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.489);
+    margin:30px 0px;
+}
+
+.line{
+    width:10px;
+    height:85%;
+    background-color:rgb(66, 43, 5);
+    position:absolute;
+    left:-40px;
+}
+
+.box-3{
+    flex-basis:40%;
+    position:relative;
+    margin-left:70px;
+}
+.box-3 h1{
+    font-size:54px;
+    color:rgba(255, 255, 255, 0.489);
+}
+.box-3 h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0 10px;
+    background:rgba(255, 255, 255, 0.489);
+    mix-blend-mode: screen;
+    padding-left:10px;
+}
+
+.box-3 p{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.489);
+    margin:30px 0px;
+}
+.box-4{
+    flex-basis:40%;
+    position:relative;
+    margin-left:100px;
+}
+.box-4 h1{
+    font-size:54px;
+    color:rgba(255, 255, 255, 0.489);
+}
+.box-4 h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0 10px;
+    background:rgba(255, 255, 255, 0.489);
+    mix-blend-mode: screen;
+    padding-left:10px;
+}
+
+.box-4 p{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.489);
+    margin:30px 0px;
+}
+
